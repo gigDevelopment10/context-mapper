@@ -1,8 +1,19 @@
 # context-mapper
 
-Creates a context map for your repository
+Context-Mapper generate a rich context map of your repository for AI agents
+This tool analyzes your codebase and produces a structured context map — a representation of files, relationships, and key content. AI agents can use this map to:
 
-! Work In Progress
+- Understand your project’s structure without scanning the entire repo every time.
+
+- Answer questions about specific files, modules, or dependencies.
+
+- Write code with context-awareness, referencing the right parts of your codebase.
+
+- Summarize and navigate your repository efficiently.
+
+**! Work In Progress**
+
+Npm package Link : https://www.npmjs.com/package/context-mapper
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/82fbddd1-720e-404d-bdc5-b75430568759" />
 
