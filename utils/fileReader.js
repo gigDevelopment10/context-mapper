@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const ignoreDirs = ['node_modules', '.git', 'yarn.lock'];
+const ignoreDirs = ['node_modules', '.git', 'yarn.lock', 'package-lock.json'];
 
 function getAllFiles(dirPath, arrayOfFiles = []) {
   const files = fs.readdirSync(dirPath);

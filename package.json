@@ -1,6 +1,6 @@
 {
   "name": "context-mapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creates a context map for your repository",
   "homepage": "https://github.com/gigDevelopment10/context-mapper#readme",
   "bugs": {
@@ -16,5 +16,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/micromatch": "^4.0.9",
+    "husky": "^9.1.7",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "esbuild": "^0.25.8",
+    "lodash": "^4.17.21",
+    "micromatch": "^4.0.8",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   }
 }
